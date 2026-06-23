@@ -29,16 +29,17 @@
 Текстовый вывод прогона:
 
 ```text
-============================= test session starts =============================
-collected 21 items
+.....................                                                    [100%]
+================================ tests coverage ================================
+Name                      Stmts   Miss Branch BrPart  Cover
+---------------------------------------------------------------------
+task_manager/models.py       53      3     10      1    94%
+task_manager/service.py      83      1     26      2    97%
+---------------------------------------------------------------------
+TOTAL                       157      4     40      3    96%
 
-tests/test_models.py ........
-tests/test_service_crud.py .....
-tests/test_service_filters_search.py .....
-tests/test_service_regressions.py ...
-tests/test_storage.py ..
-
-============================== 21 passed in 0.08s =============================
+2 files skipped due to complete coverage.
+21 passed in 0.52s
 ```
 
 ## 3. Фрагмент журнала поддержки
