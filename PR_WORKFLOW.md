@@ -7,3 +7,4 @@
 | #16 | `pr/03-business-logic` | Added CRUD business logic workflow marker | #4 |
 | #17 | `pr/04-search-filters` | Added search, filters, and overdue workflow marker | #5, #11 |
 | #18 | `pr/05-cli-docs` | Added CLI, acceptance checklist, and documentation workflow marker | #6, #7, #8, #13 |
+| #19 | `pr/06-support-fixes` | Added support fixes workflow marker and real PR references | #9, #10, #12 |
