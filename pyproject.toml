@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["task_manager"]
+branch = true
+omit = ["task_manager/cli.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
