@@ -31,15 +31,17 @@
 ```text
 .....................                                                    [100%]
 ================================ tests coverage ================================
-Name                      Stmts   Miss Branch BrPart  Cover
+_______________ coverage: platform win32, python 3.14.2-final-0 _______________
+
+Name                      Stmts   Miss Branch BrPart  Cover   Missing
 ---------------------------------------------------------------------
-task_manager/models.py       53      3     10      1    94%
-task_manager/service.py      83      1     26      2    97%
+task_manager\models.py       48      3     10      1    93%   32, 75-76
+task_manager\service.py      83      1     26      2    97%   58->57, 69
 ---------------------------------------------------------------------
-TOTAL                       157      4     40      3    96%
+TOTAL                       152      4     40      3    96%
 
 2 files skipped due to complete coverage.
-21 passed in 0.52s
+21 passed in 0.25s
 ```
 
 ## 3. Фрагмент журнала поддержки
