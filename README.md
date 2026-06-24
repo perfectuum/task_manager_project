@@ -92,9 +92,8 @@ Project-доска: `Task Manager Mini Project`.
 
 Колонки:
 
-- `To Do`
+- `Todo`
 - `In Progress`
-- `Review`
 - `Done`
 
 Issues для разработки:
